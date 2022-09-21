@@ -1,0 +1,39 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    border: 5px double grey;
+    background-image: url("../images/fondotabla.jpg") ;
+    background-size: cover;
+
+    color: brown;
+    text-align: center ;
+}
+
+tr {
+    border-collapse: collapse;
+    border: 2px double black;
+}
+
+td {
+    border-collapse: collapse;
+    border: 2px double black;
+}
+
+.verde {
+    background-color: green;
+}
+
+.naranja {
+    background-color: orange;
+}
+
+.amarillo {
+    background-color: yellow;
+}

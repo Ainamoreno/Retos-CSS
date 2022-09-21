@@ -1,0 +1,33 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor {
+    border: 2px solid black;
+    background-image: url(../images/ac.jpg);
+    width: 60vw;
+    height: 80vh;
+}
+
+.cont-imagenes {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px 60px;
+
+}
+
+img {
+    width: 5em;
+    height: 5em;
+    padding: 0.5em;
+}
+
+.div-img {
+    background-color: white;
+    border: 1px solid black;
+}
+
