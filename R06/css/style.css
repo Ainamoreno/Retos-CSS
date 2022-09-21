@@ -8,26 +8,105 @@ body {
 .contenedor {
     border: 2px solid black;
     background-image: url(../images/ac.jpg);
-    width: 60vw;
+    width: 60%;
     height: 80vh;
 }
 
 .cont-imagenes {
+    width: fit-content;
+    margin: 6px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    gap: 10px 60px;
+    gap: 40px 50px;
 
 }
 
-img {
+.div-img {
+    text-align: center;
+    border: 1px solid black;
     width: 5em;
     height: 5em;
     padding: 0.5em;
 }
 
-.div-img {
+.div1 {
+    background-image: url(../images/back_mantel.jpg);
+}
+
+.div2 {
+    width: 5em;
+    height: 5em;
+    background-image: url(../images/back_mantel.jpg);
+}
+
+.div3 {
+    background-image: url(../images/back_mantel.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.div4 {
+    width: 5em;
+    height: 5em;
+    background-image: url(../images/back_mantel.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.div4-sup {
     background-color: white;
-    border: 1px solid black;
+}
+
+.div5 {
+    background-image: url(../images/dh.jpg);
+    background-size: 100%;
+}
+
+.div6 {
+    width: 5em;
+    height: 5em;
+    background-image: url(../images/dh.jpg);
+    background-size: 100%;
+}
+.div7-sup {
+
+    background-color: white;
+
+}
+.div7 {
+    background-color: white;
+    width: 5em;
+    height: 5em;
+    background-image: url(../images/dh_2.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.div8 {
+    background-color: white;
+    width: 5em;
+    height: 5em;
+    background-image: url(../images/dh_3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
+
+.div9{
+    background: linear-gradient(0.25turn, rgb(225, 250, 0), black);
+}
+
+.div10{
+    background: linear-gradient(rgb(219, 200, 172), rgb(235, 113, 31));
+}
+
+.div11{
+    background: linear-gradient(rgb(165, 206, 168), rgb(47, 179, 69));
+}
+
+.div12{
+    background: linear-gradient(rgba(198, 209, 188, 0.411), rgba(33, 211, 33, 0.459));
 }
 
