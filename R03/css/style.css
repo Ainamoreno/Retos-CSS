@@ -1,0 +1,42 @@
+body {
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+width: auto;
+height: 100vh;
+margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px double grey;
+    width: 50vw;
+    height: 10vh;
+    position: relative;
+
+
+}
+
+td {
+    border-collapse: collapse;
+    border: 3px double grey;
+}
+
+.encabezado, .celda-1, .celda-2 {
+    text-align: center;
+}
+
+.encabezado {
+    background-color: rgb(224, 224, 178);
+}
+
+.celda-1, .celda-2 {
+    background-color: yellow;
+}
+
+img {
+    position: absolute;
+
+    
+}
