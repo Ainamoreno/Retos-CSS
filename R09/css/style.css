@@ -6,14 +6,19 @@ table {
     border: 1px solid black;
 }
 
-td {
+tr {
     border: 1px solid black;
 }
 
-tr {
+td {
     border: 1px solid black;
 }
 
 .bold {
     font-weight: 600;
+}
+
+.tit {
+    font-weight: 600;
+    text-align: center;
 }
