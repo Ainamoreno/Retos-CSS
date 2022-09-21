@@ -1,0 +1,51 @@
+body {
+    width: auto;
+    height: 100vh;
+    display: flex;
+    margin: 0;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid grey;
+    background-color: aqua;
+    box-shadow: 2px 3px 6px 4px gray;
+    margin: 2px;
+    
+}
+
+th {
+    border-collapse: collapse;
+    border: 2px solid blue;
+    background-color: rgba(3, 46, 9, 0.836);
+    font-weight: 600;
+    color: aquamarine;
+    width: 10vw;
+}
+
+td {
+    border-collapse: collapse;
+    border: 2px solid blue;
+
+}
+
+.contenedor-tabla {
+    border: 3px solid grey;
+    width: fit-content;
+    margin: auto;
+}
+
+.tr-impar {
+    background-color: rgb(130, 216, 168);
+}
+
+.tr-par {
+    background-color: rgba(156, 209, 143, 0.411);
+}
+
+.center {
+    text-align: center;
+}
+
+.td-izq {
+    width: 15vw;
+}
